@@ -1,0 +1,19 @@
+﻿<Properties StartupConfiguration="{0B7E74CB-E6D5-4546-9307-F479711D713D}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TicketingSystemZD/Controllers/HomeController.cs">
+    <Files>
+      <File FileName="TicketingSystemZD/Controllers/HomeController.cs" Line="13" Column="18" />
+      <File FileName="TicketingSystemZD/Views/Home/Index.cshtml" Line="6" Column="28" />
+      <File FileName="TicketingSystemZD/Models/Pager.cs" Line="3" Column="1" />
+      <File FileName="TicketingSystemZD/Models/Ticket.cs" Line="4" Column="11" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/MigiHome/Projects/TicketingSystemZD/TicketingSystemZD/Controllers/HomeController.cs" relfile="TicketingSystemZD/Controllers/HomeController.cs" line="45" column="51" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.TicketingSystemZD PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+</Properties>

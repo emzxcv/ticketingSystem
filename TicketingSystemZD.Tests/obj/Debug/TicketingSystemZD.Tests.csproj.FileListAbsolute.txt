@@ -1,0 +1,2 @@
+/Users/MigiHome/Projects/TicketingSystemZD/TicketingSystemZD.Tests/obj/Debug/TicketingSystemZD.Tests.csprojResolveAssemblyReference.cache
+/Users/MigiHome/Projects/TicketingSystemZD/TicketingSystemZD.Tests/obj/Debug/TicketingSystemZD.Tests.csproj.CoreCompileInputs.cache

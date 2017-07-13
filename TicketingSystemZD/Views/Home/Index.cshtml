@@ -1,0 +1,74 @@
+﻿@model TicketingSystemZD.Controllers.IndexViewModel
+
+
+<html>
+    <head>
+        <title>Zendesk Ticketing System</title>
+        <link rel="stylesheet" href="https://bootswatch.com/cosmo/bootstrap.min.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="container-fluid">
+                <h1>Ticketing System</h1>
+				<table class="table table-hover" align="center">
+    <thead>
+      <tr>
+        <th>Subject</th>
+		<th>Type</th>
+		<th>Status</th>
+		<th>More Details</th>					
+      </tr>
+    </thead>
+    <tbody>
+			@foreach (var item in Model.Items){			
+      <tr>
+        <td width="50%">@item.description</td>
+		<td width="15%">@item.id</td>
+		<td width="15%">@item.status</td>
+		<td class="btn btn-warning" >View It </td>
+      </tr>
+						}
+
+    </tbody>
+  </table>
+
+            <!-- pager -->
+                @if (Model.Pager.EndPage > 1)
+                {
+                    <ul class="pagination">
+                        @if (Model.Pager.CurrentPage > 1)
+                        {
+                            <li>
+                                <a href="~/Home/Index">First</a>
+                            </li>
+                            <li>
+                                <a href="~/Home/Index?page=@(Model.Pager.CurrentPage - 1)">Previous</a>
+                            </li>
+                        }
+
+                        @for (var page = Model.Pager.StartPage; page <= Model.Pager.EndPage; page++)
+                        {
+                            <li class="@(page == Model.Pager.CurrentPage ? "active" : "")">
+                                <a href="~/Home/Index?page=@page">@page</a>
+                            </li>
+                        }
+
+                        @if (Model.Pager.CurrentPage < Model.Pager.TotalPages)
+                        {
+                            <li>
+                                <a href="~/Home/Index?page=@(Model.Pager.CurrentPage + 1)">Next</a>
+                            </li>
+                            <li>
+                                <a href="~/Home/Index?page=@(Model.Pager.TotalPages)">Last</a>
+                            </li>
+                        }
+                    </ul>
+                }               
+            </div>
+        </div>
+        <hr />
+        <div class="credits text-center">
+        <p> Emily Ha </p>
+        </div>
+    </body>
+</html>
