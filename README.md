@@ -24,6 +24,7 @@ How to run the tests:
 2. Under the 'Run' tab, select 'Run Unit Tests'
 3. Open the tab ' Test Results' located near the bottom right hand corner of the IDE.
 
-Improvements:
+IMPROVEMENTS NEEDED:
 - The web api request needs a complete revamp. 
 - Index method needs a rewrite.
+- Needs negative testing in unit tests.
