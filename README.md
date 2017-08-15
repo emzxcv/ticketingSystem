@@ -1,9 +1,10 @@
 TicketingSystemZD
 ![Screenshot](home.png) 
 
-
+Pagination:
 ![Screenshot](page.png)
 
+View of ticket:
 ![Screenshot](ticket.png)
 
 
@@ -23,3 +24,6 @@ How to run the tests:
 2. Under the 'Run' tab, select 'Run Unit Tests'
 3. Open the tab ' Test Results' located near the bottom right hand corner of the IDE.
 
+Improvements:
+- The web api request needs a complete revamp. 
+- Index method needs a rewrite.
